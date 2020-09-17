@@ -1,5 +1,5 @@
-var randomNumber1= Math.floor(Math.random()*100)+1;
-var randomNumber2= Math.floor(Math.random()*100)+1;
+var randomNumber1= Math.floor(Math.random()*3)+1;
+var randomNumber2= Math.floor(Math.random()*3)+1;
 
 if (randomNumber1>randomNumber2) {
 	 
@@ -15,5 +15,5 @@ var randomImageSource2="chota1.jpeg";
 	document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2); 
 }
 else{
-	document.querySelector("h1").innerHTML ="AAAAAA ki EE to draw hoi poi..!! "
+	document.querySelector("h1").innerHTML ="AAAAAA ki EE to draw hoi poi...but I love you more !! "
 }
